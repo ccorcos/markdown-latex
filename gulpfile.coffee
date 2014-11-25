@@ -12,10 +12,13 @@ gulp.task 'markdown', ->
       ext: '.html'
       args: [
         '--smart'
-        '-s'
+        '--standalone'
         '--mathjax'
-        # '--toc'
+        '--table-of-contents'
         '--css=style.css'
+        '--toc-depth=2'
+        '--number-sections'
+        # '--include-before-body=header.html'
       ]
     .pipe gulp.dest 'html'
     .pipe connect.reload()
