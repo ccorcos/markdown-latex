@@ -1,5 +1,5 @@
 {
-  "name": "marktech",
+  "name": "marktex",
   "version": "1.0.0",
   "description": "A gulp workflow for writing markdown documents with LaTeX and D3 support",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "?"
+    "url": "https://github.com/ccorcos/markdown-latex.git"
   },
   "author": "Chet Corcos <ccorcos@gmail.com> (http://www.chetcorcos.com/)",
   "license": "ISC",
